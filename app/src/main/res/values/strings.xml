@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AIS</string>
+    <string name="ais">Awareness of Illness Scale</string>
+    <string name="login">Login</string>
+</resources>

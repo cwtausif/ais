@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.glowingsoft.testapp.HomeActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/typeTv"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Loading Questions"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:id="@+id/questionNoTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/questionTv"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+    <RadioGroup
+        android:id="@+id/choicesGroup"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/nextBtn"
+        android:textAllCaps="false"
+        android:text="Loading..."
+        android:layout_gravity="center_horizontal"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
