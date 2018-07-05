@@ -8,7 +8,9 @@ import android.util.Log;
 
 public class GlobalClass extends Application {
 
-   public static String BASE_URL = "http://glowingsoft.com/ais/";
+//   public static String BASE_URL = "http://glowingsoft.com/ais/";
+   //this url should have been used
+   public static String BASE_URL ="http://valisbioscience.com/ais/";
     private static GlobalClass singleton;
 
     public static GlobalClass getInstance() {
