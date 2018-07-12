@@ -26,6 +26,10 @@
         </activity>
         <activity android:name=".HomeActivity" />
         <activity android:name=".LoginActivity"></activity>
+        <receiver android:name=".Receiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
     </application>
 
 </manifest>
